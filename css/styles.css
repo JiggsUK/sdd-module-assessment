@@ -1,0 +1,233 @@
+/*Keeps footer at bottom on window when content is too short*/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/*Font Stylings*/
+.page-title {
+    font-family: "Arial Black", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #222221;
+    margin: auto;
+    text-align: center;
+}
+
+.page-subtitle {
+    font-family: Calibri, sans-serif;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    color: #222221;
+}
+
+.body-text {
+    font-family: Calibri, sans-serif;
+    font-size: 1rem;
+    color: #222221;
+    text-align: center;
+}
+
+/*Navigation Stylings*/
+.navbar-expand-lg {
+    background-color: #FECB00;
+    color: #222221;
+    border-bottom: 0.2rem solid #222221;
+}
+
+.fas {
+    color: #222221;
+}
+
+.navbar-toggler{
+    font-size: 2rem !important;
+    padding: 0 !important;
+}
+
+.nav-link {
+    color: #222221;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: #8B8178;
+}
+
+
+/*Generic Page Stylings*/
+
+.required:after {
+    color: red;
+    content: "*";
+}
+
+.title-row {
+    min-height: 6rem;
+}
+
+.content-row {
+    min-height: 14rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.min-height {
+    min-height: 5rem;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #8B8178 !important;
+    opacity: 30%;
+}
+
+/*Card Stylings*/
+.card-deck {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.card {
+    min-height: 12rem;
+    min-width: 12rem;
+    background-color: #FECB00;
+    border: 0.1rem solid #222221;
+
+}
+
+.button-links:hover {
+    background-color: #8B8178;
+    transition: transform 1s ease;
+    color: #ffffff;
+}
+
+.button-links {
+    text-align: center;
+    color: #222221;
+    font-family: Calibri, sans-serif;
+    font-size: 1rem;
+}
+
+/*Sign In page stylings*/
+
+.btn-primary {
+    background-color: #FECB00;
+    color: #222221;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FECB00;
+    color: #222221;
+    border: none;
+    opacity: 0.8;
+}
+
+.btn-primary:active {
+    background-color: #FECB00 !important;
+    color: #222221 !important;
+    border: none !important;
+}
+
+.btn-primary:focus {
+    background-color: #FECB00;
+    color: #222221;
+    box-shadow: none;
+    border: none;
+}
+
+/*Availability stylings*/
+
+table, table > th, table > td{
+    vertical-align: center;
+    padding: 0.3rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+th {
+    font-family: "Arial Black", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #222221;
+    text-align: center;
+    background-color: #FECB00;
+    border-bottom: 0.2rem solid #8B8178;
+    border-right: 0.05rem solid #8B8178;
+}
+
+tr {
+    border-bottom: 0.05rem solid #8B8178;
+}
+
+td {
+    font-family: Calibri, sans-serif;
+    font-size: 1rem;
+    color: #222221;
+    text-align: center;
+    border-right: 0.05rem solid #8B8178;
+}
+
+th:last-child{
+    border-right: none;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+/*My Bookings stylings*/
+
+.cell-padding {
+    padding: 0.5rem;
+}
+
+.booking-table {
+    min-width: 100%;
+}
+
+.text-link {
+    color: #01538a;
+    font-weight: bold;
+}
+.text-link:hover {
+    color: #222221;
+    font-weight: bold;
+}
+/*Footer Stylings*/
+.footer-scheme {
+    background-color: #FECB00;
+    border-top: 0.1rem solid #222221;
+    padding: 1rem;
+}
+
+.footer-scheme > div > h1 {
+    color: #222221;
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+    padding: 0.1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
